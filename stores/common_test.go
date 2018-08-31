@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/go-nats-streaming/pb"
-	"github.com/nats-io/nats-streaming-server/logger"
-	"github.com/nats-io/nats-streaming-server/spb"
-	"github.com/nats-io/nats-streaming-server/test"
-	"github.com/nats-io/nuid"
+	"github.com/liornabat/go-nats-streaming/pb"
+	"github.com/liornabat/nats-streaming-server/logger"
+	"github.com/liornabat/nats-streaming-server/spb"
+	"github.com/liornabat/nats-streaming-server/test"
+	"github.com/liornabat/nuid"
 )
 
 var testDefaultStoreLimits = StoreLimits{

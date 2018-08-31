@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	natsd "github.com/nats-io/gnatsd/server"
-	"github.com/nats-io/nats-streaming-server/stores"
+	natsd "github.com/liornabat/gnatsd/server"
+	"github.com/liornabat/nats-streaming-server/stores"
 )
 
 const (

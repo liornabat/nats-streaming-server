@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	natsd "github.com/nats-io/gnatsd/server"
-	natsdTest "github.com/nats-io/gnatsd/test"
-	"github.com/nats-io/go-nats"
-	"github.com/nats-io/go-nats-streaming"
-	"github.com/nats-io/go-nats-streaming/pb"
-	"github.com/nats-io/nats-streaming-server/stores"
+	natsd "github.com/liornabat/gnatsd/server"
+	natsdTest "github.com/liornabat/gnatsd/test"
+	"github.com/liornabat/go-nats"
+	"github.com/liornabat/go-nats-streaming"
+	"github.com/liornabat/go-nats-streaming/pb"
+	"github.com/liornabat/nats-streaming-server/stores"
 )
 
 const (

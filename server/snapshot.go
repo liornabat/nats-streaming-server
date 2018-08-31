@@ -19,10 +19,10 @@ import (
 	"time"
 
 	"github.com/hashicorp/raft"
-	"github.com/nats-io/go-nats"
-	"github.com/nats-io/go-nats-streaming/pb"
-	"github.com/nats-io/nats-streaming-server/spb"
-	"github.com/nats-io/nats-streaming-server/util"
+	"github.com/liornabat/go-nats"
+	"github.com/liornabat/go-nats-streaming/pb"
+	"github.com/liornabat/nats-streaming-server/spb"
+	"github.com/liornabat/nats-streaming-server/util"
 )
 
 // serverSnapshot implements the raft.FSMSnapshot interface by snapshotting

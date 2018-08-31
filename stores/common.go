@@ -16,10 +16,10 @@ package stores
 import (
 	"sync"
 
-	"github.com/nats-io/go-nats-streaming/pb"
-	"github.com/nats-io/nats-streaming-server/logger"
-	"github.com/nats-io/nats-streaming-server/spb"
-	"github.com/nats-io/nats-streaming-server/util"
+	"github.com/liornabat/go-nats-streaming/pb"
+	"github.com/liornabat/nats-streaming-server/logger"
+	"github.com/liornabat/nats-streaming-server/spb"
+	"github.com/liornabat/nats-streaming-server/util"
 )
 
 // format string used to report that limit is reached when storing

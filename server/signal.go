@@ -20,7 +20,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	natsd "github.com/nats-io/gnatsd/server"
+	natsd "github.com/liornnabat/gnatsd/server"
 )
 
 func init() {

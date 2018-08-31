@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats-streaming-server/spb"
-	"github.com/nats-io/nats-streaming-server/util"
+	"github.com/liornabat/nats-streaming-server/spb"
+	"github.com/liornabat/nats-streaming-server/util"
 )
 
 func TestFSBadSubFile(t *testing.T) {

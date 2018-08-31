@@ -19,11 +19,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/go-nats"
-	"github.com/nats-io/go-nats-streaming"
-	"github.com/nats-io/go-nats-streaming/pb"
-	"github.com/nats-io/nats-streaming-server/spb"
-	"github.com/nats-io/nats-streaming-server/stores"
+	"github.com/liornabat/go-nats"
+	"github.com/liornabat/go-nats-streaming"
+	"github.com/liornabat/go-nats-streaming/pb"
+	"github.com/liornabat/nats-streaming-server/spb"
+	"github.com/liornabat/nats-streaming-server/stores"
 )
 
 // As of now, it is possible for members of the same group to have different

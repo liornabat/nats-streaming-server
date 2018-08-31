@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	natsdTest "github.com/nats-io/gnatsd/test"
-	"github.com/nats-io/go-nats"
-	"github.com/nats-io/go-nats-streaming"
-	"github.com/nats-io/go-nats-streaming/pb"
+	natsdTest "github.com/liornabat/gnatsd/test"
+	"github.com/liornabat/go-nats"
+	"github.com/liornabat/go-nats-streaming"
+	"github.com/liornabat/go-nats-streaming/pb"
 )
 
 func TestDurableRestartWithMaxInflight(t *testing.T) {

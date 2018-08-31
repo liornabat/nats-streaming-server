@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/go-nats"
-	"github.com/nats-io/go-nats-streaming"
-	"github.com/nats-io/go-nats-streaming/pb"
+	"github.com/liornabat/go-nats"
+	"github.com/liornabat/go-nats-streaming"
+	"github.com/liornabat/go-nats-streaming/pb"
 )
 
 type response interface {

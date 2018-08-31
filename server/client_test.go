@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats-streaming-server/spb"
-	"github.com/nats-io/nats-streaming-server/stores"
-	"github.com/nats-io/nuid"
+	"github.com/liornabat/nats-streaming-server/spb"
+	"github.com/liornabat/nats-streaming-server/stores"
+	"github.com/liornabat/nuid"
 )
 
 func createClientStore() *clientStore {

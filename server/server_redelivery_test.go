@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	natsdTest "github.com/nats-io/gnatsd/test"
-	"github.com/nats-io/go-nats"
-	"github.com/nats-io/go-nats-streaming"
+	natsdTest "github.com/liornabat/gnatsd/test"
+	"github.com/liornabat/go-nats"
+	"github.com/liornabat/go-nats-streaming"
 )
 
 func TestRedelivery(t *testing.T) {

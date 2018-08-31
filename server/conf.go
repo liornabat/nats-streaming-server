@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nats-io/gnatsd/conf"
-	natsd "github.com/nats-io/gnatsd/server"
-	"github.com/nats-io/nats-streaming-server/stores"
-	"github.com/nats-io/nats-streaming-server/util"
+	"github.com/liornabat/gnatsd/conf"
+	natsd "github.com/liornabat/gnatsd/server"
+	"github.com/liornabat/nats-streaming-server/stores"
+	"github.com/liornabat/nats-streaming-server/util"
 )
 
 // ProcessConfigFile parses the configuration file `configFile` and updates

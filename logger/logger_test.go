@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	natsdLogger "github.com/nats-io/gnatsd/logger"
+	natsdLogger "github.com/liornabat/gnatsd/logger"
 )
 
 func TestMain(m *testing.M) {

@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	natsd "github.com/nats-io/gnatsd/server"
-	natsdTest "github.com/nats-io/gnatsd/test"
+	natsd "github.com/liornabat/gnatsd/server"
+	natsdTest "github.com/liornabat/gnatsd/test"
 )
 
 func TestSignalIgnoreUnknown(t *testing.T) {

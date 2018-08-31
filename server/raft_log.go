@@ -24,7 +24,7 @@ import (
 	"github.com/boltdb/bolt"
 	"github.com/hashicorp/go-msgpack/codec"
 	"github.com/hashicorp/raft"
-	"github.com/nats-io/nats-streaming-server/logger"
+	"github.com/liornabat/nats-streaming-server/logger"
 )
 
 // Bucket names

@@ -17,7 +17,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/nats-io/nats-streaming-server/spb"
+	"github.com/liornabat/nats-streaming-server/spb"
 )
 
 func TestCSMaxSubs(t *testing.T) {

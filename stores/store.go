@@ -17,8 +17,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/nats-io/go-nats-streaming/pb"
-	"github.com/nats-io/nats-streaming-server/spb"
+	"github.com/liornabat/go-nats-streaming/pb"
+	"github.com/liornabat/nats-streaming-server/spb"
 )
 
 const (

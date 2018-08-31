@@ -16,7 +16,7 @@
 package server
 
 import (
-	natsd "github.com/nats-io/gnatsd/server"
+	natsd "github.com/liornabat/gnatsd/server"
 )
 
 // Run starts the NATS Streaming server. This wrapper function allows Windows to add a

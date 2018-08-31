@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	natsd "github.com/nats-io/gnatsd/server"
-	"github.com/nats-io/go-nats"
-	"github.com/nats-io/go-nats-streaming"
-	"github.com/nats-io/go-nats-streaming/pb"
-	"github.com/nats-io/nats-streaming-server/logger"
-	"github.com/nats-io/nats-streaming-server/stores"
-	"github.com/nats-io/nats-streaming-server/test"
-	"github.com/nats-io/nuid"
+	natsd "github.com/liornabat/gnatsd/server"
+	"github.com/liornabat/go-nats"
+	"github.com/liornabat/go-nats-streaming"
+	"github.com/liornabat/go-nats-streaming/pb"
+	"github.com/liornabat/nats-streaming-server/logger"
+	"github.com/liornabat/nats-streaming-server/stores"
+	"github.com/liornabat/nats-streaming-server/test"
+	"github.com/liornabat/nuid"
 
 	_ "github.com/go-sql-driver/mysql" // mysql driver
 	_ "github.com/lib/pq"              // postgres driver

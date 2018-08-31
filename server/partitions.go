@@ -18,10 +18,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nats-io/go-nats"
-	"github.com/nats-io/nats-streaming-server/spb"
-	"github.com/nats-io/nats-streaming-server/stores"
-	"github.com/nats-io/nats-streaming-server/util"
+	"github.com/liornabat/go-nats"
+	"github.com/liornabat/nats-streaming-server/spb"
+	"github.com/liornabat/nats-streaming-server/stores"
+	"github.com/liornabat/nats-streaming-server/util"
 )
 
 // Constants related to partitioning

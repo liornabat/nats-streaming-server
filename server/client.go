@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nats-io/nats-streaming-server/spb"
-	"github.com/nats-io/nats-streaming-server/stores"
+	"github.com/liornabat/nats-streaming-server/spb"
+	"github.com/liornabat/nats-streaming-server/stores"
 )
 
 // This is a proxy to the store interface.

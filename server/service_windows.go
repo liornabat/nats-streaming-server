@@ -19,8 +19,8 @@ import (
 	"strings"
 	"sync"
 
-	natsdLogger "github.com/nats-io/gnatsd/logger"
-	natsd "github.com/nats-io/gnatsd/server"
+	natsdLogger "github.com/liornabat/gnatsd/logger"
+	natsd "github.com/liornabat/gnatsd/server"
 	"golang.org/x/sys/windows/svc"
 	"golang.org/x/sys/windows/svc/debug"
 	"golang.org/x/sys/windows/svc/eventlog"

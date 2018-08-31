@@ -21,8 +21,8 @@ import (
 	"os"
 	"runtime"
 
-	natsd "github.com/nats-io/gnatsd/server"
-	stand "github.com/nats-io/nats-streaming-server/server"
+	natsd "github.com/liornabat/gnatsd/server"
+	stand "github.com/liornabat/nats-streaming-server/server"
 
 	_ "github.com/go-sql-driver/mysql" // mysql driver
 	_ "github.com/lib/pq"              // postgres driver

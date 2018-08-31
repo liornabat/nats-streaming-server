@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"time"
 
-	gnatsd "github.com/nats-io/gnatsd/server"
-	"github.com/nats-io/nats-streaming-server/stores"
+	gnatsd "github.com/liornabat/gnatsd/server"
+	"github.com/liornabat/nats-streaming-server/stores"
 )
 
 // Routes for the monitoring pages

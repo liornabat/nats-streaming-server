@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/go-nats-streaming/pb"
+	"github.com/liornabat/go-nats-streaming/pb"
 )
 
 func TestCSBasicMsgStore(t *testing.T) {

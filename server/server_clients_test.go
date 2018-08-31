@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/go-nats"
-	"github.com/nats-io/go-nats-streaming"
-	"github.com/nats-io/go-nats-streaming/pb"
-	"github.com/nats-io/nuid"
+	"github.com/liornabat/go-nats"
+	"github.com/liornabat/go-nats-streaming"
+	"github.com/liornabat/go-nats-streaming/pb"
+	"github.com/liornabat/nuid"
 )
 
 func TestClientIDIsValid(t *testing.T) {

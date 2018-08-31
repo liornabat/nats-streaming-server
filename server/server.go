@@ -30,16 +30,16 @@ import (
 	"time"
 
 	"github.com/hashicorp/raft"
-	natsdLogger "github.com/nats-io/gnatsd/logger"
-	"github.com/nats-io/gnatsd/server"
-	"github.com/nats-io/go-nats"
-	"github.com/nats-io/go-nats-streaming/pb"
-	"github.com/nats-io/nuid"
+	natsdLogger "github.com/liornabat/gnatsd/logger"
+	"github.com/liornabat/gnatsd/server"
+	"github.com/liornabat/go-nats"
+	"github.com/liornabat/go-nats-streaming/pb"
+	"github.com/liornabat/nuid"
 
-	"github.com/nats-io/nats-streaming-server/logger"
-	"github.com/nats-io/nats-streaming-server/spb"
-	"github.com/nats-io/nats-streaming-server/stores"
-	"github.com/nats-io/nats-streaming-server/util"
+	"github.com/liornabat/nats-streaming-server/logger"
+	"github.com/liornabat/nats-streaming-server/spb"
+	"github.com/liornabat/nats-streaming-server/stores"
+	"github.com/liornabat/nats-streaming-server/util"
 )
 
 // A single NATS Streaming Server
@@ -775,7 +775,7 @@ func (ss *subStore) updateState(sub *subState) {
 		// keep a reference to it until a member re-joins the group.
 		if sub.ClientID == "" {
 			// There should be only one shadow queue subscriber, but
-			// we found in https://github.com/nats-io/nats-streaming-server/issues/322
+			// we found in https://github.com/liornabat/nats-streaming-server/issues/322
 			// that some datastore had 2 of those (not sure how this happened except
 			// maybe due to upgrades from much older releases that had bugs?).
 			// So don't panic and use as the shadow the one with the highest LastSent
@@ -2227,7 +2227,7 @@ func (s *StanServer) recoverOneSub(c *channel, recSub *spb.SubState, pendingAcks
 	// Add the subscription to the corresponding client
 	added := s.clients.addSub(sub.ClientID, sub)
 	if added || sub.IsDurable {
-		// Repair for issue https://github.com/nats-io/nats-streaming-server/issues/215
+		// Repair for issue https://github.com/liornabat/nats-streaming-server/issues/215
 		// Do not recover a queue durable subscriber that still
 		// has ClientID but for which connection was closed (=>!added)
 		if !added && sub.isQueueDurableSubscriber() && !sub.isShadowQueueDurable() {
